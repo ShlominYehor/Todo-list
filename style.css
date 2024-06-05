@@ -25,7 +25,7 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-.task {
+li {
     display: flex;
     align-items: center;
     border: 1px solid gray;
@@ -34,6 +34,8 @@ body{
     background: burlywood;
     margin: 40px;
     position: relative;
+    list-style: none;
+    height: 35px
 }
 
 .delete-btn{
